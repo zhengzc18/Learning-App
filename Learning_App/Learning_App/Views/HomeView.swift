@@ -1,15 +1,15 @@
 //
 //  ContentView.swift
-//  LearningApp
+//  Learning_App
 //
-//  Created by JAESOON on 2021/08/17.
+//  Created by JAESOON on 2021/11/30.
 //
 
 import SwiftUI
 
 struct HomeView: View {
     
-    @EnvironmentObject var model: ContentModel
+    @EnvironmentObject var model:ContentModel
     
     var body: some View {
         Text("Hello, world!")
